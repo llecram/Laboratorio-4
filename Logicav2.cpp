@@ -15,11 +15,7 @@ int main(){
         cout<<negacion(expresion[i+1])<<"\n";
       }
     }
-    if(expresion[0]=='~'){
-      if(expresion[i+1]!='('){
-        cout<<negacion(expresion[i+1]);
-      }
-    }
+    
   }
   cout<<tabla(z);
 }
@@ -40,16 +36,16 @@ int negacion(char){// esta funcion es para poder negar alguna variable, pero no 
         for(int y=1;y>-1;y--){
           for(int x=1;x>-1;x--){
             for(int v=1;v>-1;v--){
-              if (char==[1]){
-                cout<<j;
+              if (char=='a'){
+                cout<<j;//estos condicionales son solo para imprimir la variable negada requerida
               }
-              else if(char s==[2]){
+              else if(char=='b'){
                 cout<<y;
               }
-              else if(char s==[3]){
+              else if(char=='c'){
                 cout<<x;
               }
-              else if(char s==[4]){
+              else if(char=='d'){
                 cout<<v;
               }
             }
